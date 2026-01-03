@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio San Martín - Caso de Éxito | SPOOKY.DEV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/SPOOKYDEV.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">SPOOKY.DEV</a>
+                </div>
+                <a href="index.html" class="btn btn-primary" style="padding: 0.6rem 1.8rem; font-size: 0.9rem;">
+                    <i class="fas fa-arrow-left" style="margin-right: 8px;"></i> Volver
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height: 70vh; padding-top: 10rem;">
+        <div class="container hero-content">
+            <span class="section-label">Sistema Integral de Gestión Clínica</span>
+            <h1 style="margin-top: 1rem;">Laboratorio San Martín</h1>
+            <p class="subtitle">Plataforma SaaS desarrollada a medida para la digitalización completa de un laboratorio
+                clínico.</p>
+        </div>
+    </section>
+
+    <section style="padding: 6rem 0;">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-visual" style="background: transparent; box-shadow: none;">
+                    <img src="assets/logo.png" alt="Laboratorio San Martín"
+                        style="width: 100%; border-radius: 30px; box-shadow: 0 20px 60px rgba(0,0,0,0.4);">
+                </div>
+                <div class="showcase-text">
+                    <span class="section-label">El Contexto</span>
+                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">El Desafío</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem; line-height: 1.8;">
+                        Los laboratorios clínicos enfrentan procesos manuales lentos y propensos a errores en la gestión
+                        de pacientes, captura de resultados y entrega de informes, comprometiendo la eficiencia
+                        operativa y la experiencia del paciente.
+                    </p>
+
+                    <span class="section-label">La Respuesta</span>
+                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">La Solución</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 2rem; line-height: 1.8;">
+                        Desarrollamos una plataforma SaaS Full-Stack que digitalizó el 100% de la operación del
+                        laboratorio, desde la recepción hasta la entrega de resultados con validación automática.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Screenshots Carousel -->
+    <section style="padding: 8rem 0; background: #0f1420;">
+        <div class="container">
+            <span class="section-label" style="display: block; text-align: center;">Interfaz del Sistema</span>
+            <h2 class="section-title" style="margin-bottom: 1rem;">Recorrido Visual</h2>
+            <p
+                style="text-align: center; color: var(--text-muted); margin-bottom: 4rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Explora las principales funcionalidades a través de capturas reales del sistema
+            </p>
+
+            <div style="max-width: 1100px; margin: 0 auto; position: relative;">
+                <!-- Carousel Container -->
+                <div id="carousel"
+                    style="position: relative; border-radius: 20px; overflow: hidden; background: var(--card-bg); box-shadow: 0 20px 60px rgba(0,0,0,0.4);">
+                    <!-- Slides -->
+                    <div class="carousel-slide active">
+                        <img src="assets-laboratorio/dashboard.png" alt="Panel de Autenticación"
+                            style="width: 100%; display: block;">
+                        <div class="carousel-caption">
+                            <h3>Panel de Autenticación</h3>
+                            <p>Sistema de login seguro con control de acceso por roles</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard1.png" alt="Dashboard Operacional"
+                            style="width: 100%; display: block;">
+                        <div class="carousel-caption">
+                            <h3>Dashboard Operacional</h3>
+                            <p>Vista centralizada de operaciones diarias y métricas clave</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard2.png" alt="Emisión de Reportes"
+                            style="width: 100%; display: block;">
+                        <div class="carousel-caption">
+                            <h3>Emisión de Reportes</h3>
+                            <p>Generación de documentos PDF personalizados por paciente</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard3.png" alt="Panel de Consulta"
+                            style="width: 100%; display: block;">
+                        <div class="carousel-caption">
+                            <h3>Panel de Consulta de Resultados</h3>
+                            <p>Interfaz de búsqueda y visualización de estudios realizados</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard4.png" alt="Reporte de Resultados"
+                            style="width: 100%; display: block;">
+                        <div class="carousel-caption">
+                            <h3>Reporte de Resultados</h3>
+                            <p>Ejemplo de informe médico con códigos QR de validación</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard5.png" alt="Portal de Pacientes"
+                            style="width: 100%; display: block;">
+                        <div class="carousel-caption">
+                            <h3>Portal de Pacientes</h3>
+                            <p>Vista pública accesible mediante QR para consulta de resultados</p>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <button class="carousel-btn carousel-prev" onclick="moveSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn carousel-next" onclick="moveSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <span class="indicator active" onclick="goToSlide(0)"></span>
+                        <span class="indicator" onclick="goToSlide(1)"></span>
+                        <span class="indicator" onclick="goToSlide(2)"></span>
+                        <span class="indicator" onclick="goToSlide(3)"></span>
+                        <span class="indicator" onclick="goToSlide(4)"></span>
+                        <span class="indicator" onclick="goToSlide(5)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        #carousel {
+            height: 600px;
+        }
+
+        .carousel-slide {
+            display: none;
+            position: relative;
+            height: 600px;
+        }
+
+        .carousel-slide.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #0a0e1a;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(10, 14, 26, 0.95), transparent);
+            padding: 3rem 2rem 2rem;
+            color: white;
+        }
+
+        .carousel-caption h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--secondary);
+        }
+
+        .carousel-caption p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(190, 220, 220, 0.2);
+            border: 1px solid rgba(190, 220, 220, 0.3);
+            color: var(--secondary);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-btn:hover {
+            background: rgba(190, 220, 220, 0.3);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .carousel-prev {
+            left: 20px;
+        }
+
+        .carousel-next {
+            right: 20px;
+        }
+
+        .carousel-indicators {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .indicator.active {
+            background: var(--secondary);
+            width: 30px;
+            border-radius: 6px;
+        }
+
+        .indicator:hover {
+            background: rgba(255, 255, 255, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            #carousel {
+                height: 400px;
+            }
+
+            .carousel-slide {
+                height: 400px;
+            }
+
+            .carousel-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            .carousel-prev {
+                left: 10px;
+            }
+
+            .carousel-next {
+                right: 10px;
+            }
+
+            .carousel-caption {
+                padding: 2rem 1rem 1rem;
+            }
+
+            .carousel-caption h3 {
+                font-size: 1.2rem;
+            }
+
+            .carousel-caption p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const indicators = document.querySelectorAll('.indicator');
+        let autoPlayInterval;
+        let userInteracting = false;
+
+        function showSlide(n) {
+            // Remove active class from all
+            slides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(ind => ind.classList.remove('active'));
+
+            // Handle wraparound
+            if (n >= slides.length) currentSlide = 0;
+            if (n < 0) currentSlide = slides.length - 1;
+
+            // Show current slide
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+        }
+
+        function moveSlide(direction) {
+            currentSlide += direction;
+            showSlide(currentSlide);
+            pauseAutoPlay();
+        }
+
+        function goToSlide(n) {
+            currentSlide = n;
+            showSlide(currentSlide);
+            pauseAutoPlay();
+        }
+
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(() => {
+                if (!userInteracting) {
+                    currentSlide++;
+                    showSlide(currentSlide);
+                }
+            }, 8000);
+        }
+
+        function pauseAutoPlay() {
+            userInteracting = true;
+            clearInterval(autoPlayInterval);
+
+            // Resume after 4 seconds of no interaction
+            setTimeout(() => {
+                userInteracting = false;
+                startAutoPlay();
+            }, 4000);
+        }
+
+        // Start auto-play on load
+        startAutoPlay();
+    </script>
+
+    <section style="background: linear-gradient(180deg, var(--dark-bg) 0%, #0f1420 100%); padding: 6rem 0;">
+        <div class="container">
+            <span class="section-label" style="display: block; text-align: center;">Componentes del Sistema</span>
+            <h2 class="section-title">Arquitectura de la Solución</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-user-md icon"></i>
+                    <h3>Gestión de Pacientes</h3>
+                    <p>Expediente digital completo con historial clínico, búsqueda optimizada y seguimiento en tiempo
+                        real.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-flask icon"></i>
+                    <h3>Motor de Estudios Dinámico</h3>
+                    <p>Sistema flexible para captura de resultados con validación automática de valores de referencia
+                        (fuera de rango).</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-pdf icon"></i>
+                    <h3>Generación de Reportes</h3>
+                    <p>Motor de renderizado PDF que crea informes profesionales instantáneos con códigos QR únicos para
+                        validación de autenticidad.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt icon"></i>
+                    <h3>Portal de Pacientes</h3>
+                    <p>Consulta online 24/7 con notificaciones automáticas vía WhatsApp y Email. Acceso seguro mediante
+                        QR del ticket.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: linear-gradient(180deg, #0a0e1a 0%, #0f1420 100%); padding: 8rem 0;">
+        <div class="container">
+            <span class="section-label" style="display: block; text-align: center;">Tecnología</span>
+            <h2 class="section-title" style="margin-bottom: 1rem;">Stack Tecnológico</h2>
+            <p
+                style="text-align: center; color: var(--text-muted); margin-bottom: 4rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Arquitectura moderna construida con las mejores herramientas del ecosistema web
+            </p>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                <!-- Frontend Card -->
+                <div class="feature-card"
+                    style="background: linear-gradient(135deg, rgba(80, 110, 120, 0.1), rgba(26, 31, 53, 0.9)); padding: 2.5rem; position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; opacity: 0.03;">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div style="position: relative; z-index: 1;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--secondary), var(--primary)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                <i class="fab fa-react" style="font-size: 1.5rem; color: var(--dark-bg);"></i>
+                            </div>
+                            <h3 style="font-size: 1.4rem; margin: 0;">Frontend</h3>
+                        </div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                Next.js 16 (App Router)
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                TypeScript
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                Tailwind CSS + shadcn/ui
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Backend Card -->
+                <div class="feature-card"
+                    style="background: linear-gradient(135deg, rgba(80, 110, 120, 0.1), rgba(26, 31, 53, 0.9)); padding: 2.5rem; position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; opacity: 0.03;">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div style="position: relative; z-index: 1;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--secondary), var(--primary)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                <i class="fas fa-server" style="font-size: 1.5rem; color: var(--dark-bg);"></i>
+                            </div>
+                            <h3 style="font-size: 1.4rem; margin: 0;">Backend</h3>
+                        </div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                Next.js API Routes
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                NextAuth.js (Seguridad)
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                PostgreSQL + Prisma ORM
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Infrastructure Card -->
+                <div class="feature-card"
+                    style="background: linear-gradient(135deg, rgba(80, 110, 120, 0.1), rgba(26, 31, 53, 0.9)); padding: 2.5rem; position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; opacity: 0.03;">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div style="position: relative; z-index: 1;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--secondary), var(--primary)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                <i class="fas fa-cloud" style="font-size: 1.5rem; color: var(--dark-bg);"></i>
+                            </div>
+                            <h3 style="font-size: 1.4rem; margin: 0;">Infraestructura</h3>
+                        </div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                Railway Cloud Platform
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                CI/CD Automatizado
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--secondary);">▸</span>
+                                Monitoreo en tiempo real
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Impact Card -->
+                <div class="feature-card"
+                    style="background: linear-gradient(135deg, rgba(0, 255, 204, 0.05), rgba(26, 31, 53, 0.9)); padding: 2.5rem; position: relative; overflow: hidden; border: 1px solid rgba(0, 255, 204, 0.1);">
+                    <div style="position: absolute; top: -20px; right: -20px; font-size: 120px; opacity: 0.03;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div style="position: relative; z-index: 1;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                            <div
+                                style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--accent), var(--secondary)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1rem; box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);">
+                                <i class="fas fa-chart-line" style="font-size: 1.5rem; color: var(--dark-bg);"></i>
+                            </div>
+                            <h3 style="font-size: 1.4rem; margin: 0;">Impacto</h3>
+                        </div>
+                        <ul style="list-style: none; padding: 0;">
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--accent);">▸</span>
+                                <strong style="color: var(--accent);">80%</strong> reducción en tiempos
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--accent);">▸</span>
+                                <strong style="color: var(--accent);">0%</strong> errores de transcripción
+                            </li>
+                            <li
+                                style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative; color: var(--text-muted);">
+                                <span style="position: absolute; left: 0; color: var(--accent);">▸</span>
+                                <strong style="color: var(--accent);">24/7</strong> disponibilidad
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="color: var(--text-muted);">
+            <p>&copy; 2025 Desarrollo de Software Profesional</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
