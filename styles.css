@@ -294,20 +294,20 @@ nav {
 /* Grid Pattern Background (Index only) */
 .grid-pattern {
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
-    background-size: 60px 60px;
+        linear-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+    background-size: 50px 50px;
     background-position: center center;
 }
 
 .grid-pattern::before {
     content: '';
     position: absolute;
-    top: 20%;
-    right: 10%;
-    width: 200px;
-    height: 200px;
-    border: 1px solid var(--neutral-200);
+    top: 15%;
+    right: 8%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid var(--neutral-300);
     border-radius: 50%;
     animation: gridCirclePulse 4s ease-in-out infinite;
 }
@@ -315,11 +315,11 @@ nav {
 .grid-pattern::after {
     content: '';
     position: absolute;
-    bottom: 20%;
-    left: 10%;
-    width: 150px;
-    height: 150px;
-    border: 1px solid var(--neutral-200);
+    bottom: 15%;
+    left: 8%;
+    width: 220px;
+    height: 220px;
+    border: 2px solid var(--neutral-300);
     border-radius: 50%;
     animation: gridCirclePulse 4s ease-in-out infinite 2s;
 }
