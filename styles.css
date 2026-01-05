@@ -1141,12 +1141,13 @@ footer p {
 
     /* Black hole mobile adjustments */
     .black-hole {
-        top: 20%;
+        top: 15%;
         right: auto;
-        left: 5%;
-        width: 200px;
-        height: 200px;
-        opacity: 0.6;
+        left: 50%;
+        transform: translateX(-50%) perspective(800px) rotateY(0deg);
+        width: 180px;
+        height: 180px;
+        opacity: 0.5;
     }
 
     .event-horizon {
