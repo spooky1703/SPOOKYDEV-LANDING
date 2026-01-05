@@ -291,80 +291,66 @@ nav {
     }
 }
 
-/* Gradient Mesh Effect (Index only) */
-.gradient-mesh {
-    background: var(--white);
+/* Grid Pattern Background (Index only) */
+.grid-pattern {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+    background-position: center center;
 }
 
-.mesh-blob {
+.grid-pattern::before {
+    content: '';
     position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid var(--neutral-200);
     border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.4;
-    animation: meshFloat 12s ease-in-out infinite;
+    animation: gridCirclePulse 4s ease-in-out infinite;
 }
 
-.mesh-1 {
-    width: 400px;
-    height: 400px;
-    background: linear-gradient(135deg, #e5e5e5 0%, #d4d4d4 100%);
-    top: -10%;
-    right: -5%;
-    animation-delay: 0s;
+.grid-pattern::after {
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--neutral-200);
+    border-radius: 50%;
+    animation: gridCirclePulse 4s ease-in-out infinite 2s;
 }
 
-.mesh-2 {
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(135deg, #d4d4d4 0%, #a3a3a3 100%);
-    bottom: 10%;
-    left: -10%;
-    animation-delay: -4s;
-}
-
-.mesh-3 {
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(135deg, #f5f5f5 0%, #e5e5e5 100%);
-    top: 40%;
-    right: 20%;
-    animation-delay: -8s;
-}
-
-@keyframes meshFloat {
+@keyframes gridCirclePulse {
 
     0%,
     100% {
-        transform: translate(0, 0) scale(1);
-    }
-
-    25% {
-        transform: translate(30px, -20px) scale(1.05);
+        transform: scale(1);
+        opacity: 0.5;
     }
 
     50% {
-        transform: translate(-20px, 30px) scale(0.95);
-    }
-
-    75% {
-        transform: translate(20px, 20px) scale(1.02);
+        transform: scale(1.1);
+        opacity: 0.8;
     }
 }
 
 @media (max-width: 968px) {
-    .mesh-1 {
-        width: 250px;
-        height: 250px;
+    .grid-pattern::before {
+        width: 120px;
+        height: 120px;
+        top: 10%;
+        right: 5%;
     }
 
-    .mesh-2 {
-        width: 200px;
-        height: 200px;
-    }
-
-    .mesh-3 {
-        width: 150px;
-        height: 150px;
+    .grid-pattern::after {
+        width: 80px;
+        height: 80px;
+        bottom: 15%;
+        left: 5%;
     }
 }
 
