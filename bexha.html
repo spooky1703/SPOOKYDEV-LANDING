@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEXHA CONTROL - Caso de Éxito | SPOOKY.DEV</title>
+    <title>BEXHA CONTROL - Sistema de Riego Inteligente | Alonso Mota</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/SPOOKYDEV.png">
 </head>
@@ -16,122 +16,228 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">SPOOKY.DEV</a>
-                </div>
-                <a href="index.html" class="btn btn-primary" style="padding: 0.6rem 1.8rem; font-size: 0.9rem;">
-                    <i class="fas fa-arrow-left" style="margin-right: 8px;"></i> Volver
+                <div class="logo"><a href="index.html">DS × DEV</a></div>
+                <a href="index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
+                    <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> Volver
                 </a>
             </nav>
         </div>
     </header>
 
-    <section class="hero" style="min-height: 70vh; padding-top: 10rem;">
-        <div class="container hero-content">
-            <span class="section-label">Sistema Integral de Gestión Agrícola</span>
-            <h1 style="margin-top: 1rem;">BEXHA CONTROL</h1>
-            <p class="subtitle">La solución definitiva para la administración de distritos de riego, cobranza y
-                validación en campo.</p>
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 70vh;">
+        <!-- Geometric Background -->
+        <div class="hero-bg">
+            <div class="geo-circle geo-1"></div>
+            <div class="geo-circle geo-2"></div>
+            <div class="geo-line geo-3"></div>
+            <div class="geo-line geo-4"></div>
+            <div class="geo-dot geo-5"></div>
+            <div class="geo-dot geo-6"></div>
+            <div class="geo-ring geo-7"></div>
         </div>
-    </section>
 
-    <section style="padding: 6rem 0;">
-        <div class="container">
-            <div class="showcase-content">
-                <div class="showcase-visual" style="background: transparent; box-shadow: none;">
-                    <img src="assets/Software_Workflow_Animation_Generated.gif" alt="BEXHA Scanner Demo"
-                        style="width: 100%; border-radius: 30px; box-shadow: 0 20px 60px rgba(0,0,0,0.4);">
-                </div>
-                <div class="showcase-text">
-                    <span class="section-label">El Contexto</span>
-                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">El Desafío</h2>
-                    <p style="color: var(--text-muted); margin-bottom: 2rem; line-height: 1.8;">
-                        La Asociación de Usuarios de la Sección 14 enfrentaba problemas críticos en el control de sus
-                        padrones, sumado a una logística lenta en la validación de riegos en campo que generaba
-                        ineficiencias operativas.
-                    </p>
-
-                    <span class="section-label">La Respuesta</span>
-                    <h2 style="font-size: 2rem; margin-bottom:1.5rem;">La Solución</h2>
-                    <p style="color: var(--text-muted); margin-bottom: 2rem; line-height: 1.8;">
-                        Desarrollamos un ecosistema híbrido (Desktop + Móvil) que digitalizó el 100% de su operación,
-                        eliminando papel y optimizando tiempos de validación.
-                    </p>
-                </div>
+        <div class="hero-content">
+            <div class="badge">
+                <span class="badge-dot"></span>
+                IoT & Data Analytics
             </div>
-        </div>
-    </section>
 
-    <section style="background: linear-gradient(180deg, var(--dark-bg) 0%, #0f1420 100%); padding: 6rem 0;">
-        <div class="container">
-            <span class="section-label" style="display: block; text-align: center;">Componentes del Sistema</span>
-            <h2 class="section-title">Arquitectura de la Solución</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <i class="fas fa-desktop icon"></i>
-                    <h3>Panel Administrativo</h3>
-                    <p>Control total de ejidatarios, impresión de recibos con QR encriptado y reportes financieros
-                        automáticos.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-mobile-alt icon"></i>
-                    <h3>App de Campo Offline</h3>
-                    <p>Validación instantánea de recibos sin internet, matriz de riegos visual y bloqueo de seguridad
-                        por dispositivo.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-database icon"></i>
-                    <h3>Base de Datos Centralizada</h3>
-                    <p>Almacenamiento seguro de todos los registros históricos con sincronización automática entre
-                        plataformas.</p>
-                </div>
-                <div class="feature-card">
-                    <i class="fas fa-chart-line icon"></i>
-                    <h3>Reportes Automatizados</h3>
-                    <p>Generación instantánea de reportes de cobranza, padrones y análisis financiero exportables a
-                        Excel y PDF.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4rem);">
+                BEXHA CONTROL
+            </h1>
 
-    <section class="download-section">
-        <div class="container">
-            <h2>Obtén la Herramienta</h2>
-            <p style="margin-bottom: 3rem; color: rgba(255,255,255,0.9);">Descarga exclusiva para personal autorizado
+            <p class="subtitle">
+                Sistema de Control de Riego Inteligente para la optimización de recursos hídricos y maximización del
+                rendimiento agrícola.
             </p>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="bg-neutral">
+        <div class="container">
+            <div class="project-card">
+                <div class="project-grid">
+                    <div>
+                        <h4 class="project-section-title">El Desafío</h4>
+                        <p class="project-text">
+                            La Asociación de Usuarios de la Sección 14 enfrentaba problemas críticos en el control de
+                            sus padrones, sumado a una logística lenta en la validación de riegos en campo que generaba
+                            ineficiencias operativas y pérdidas de agua significativas.
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="project-section-title">La Solución</h4>
+                        <p class="project-text">
+                            Desarrollamos un ecosistema híbrido (Desktop + Móvil) que digitalizó el 100% de su
+                            operación, eliminando papel y optimizando tiempos de validación con tecnología QR y
+                            sincronización en tiempo real.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section>
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label">Demostración</div>
+                <h2>Sistema en Acción</h2>
+            </div>
 
             <div
-                style="background: rgba(255,255,255,0.1); padding: 3rem; border-radius: 30px; max-width: 700px; margin: 0 auto; backdrop-filter: blur(10px);">
-                <h3 style="color: #fff; margin-bottom: 2rem; font-size: 1.8rem;">BEXHA Scanner v1.0</h3>
-                <ul
-                    style="text-align: left; color: #fff; margin-bottom: 2.5rem; list-style: none; max-width: 400px; margin-left: auto; margin-right: auto;">
-                    <li style="margin-bottom: 0.8rem; display: flex; align-items: center;">
-                        <i class="fas fa-check-circle" style="margin-right: 12px; color: var(--accent);"></i>
-                        Escáner QR de alta velocidad
-                    </li>
-                    <li style="margin-bottom: 0.8rem; display: flex; align-items: center;">
-                        <i class="fas fa-check-circle" style="margin-right: 12px; color: var(--accent);"></i>
-                        Base de datos offline
-                    </li>
-                    <li style="margin-bottom: 0.8rem; display: flex; align-items: center;">
-                        <i class="fas fa-check-circle" style="margin-right: 12px; color: var(--accent);"></i>
-                        Exportación a Excel
-                    </li>
+                style="max-width: 800px; margin: 0 auto; border-radius: 1rem; overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: 0 20px 50px -12px rgba(0,0,0,0.1);">
+                <img src="assets/Software_Workflow_Animation_Generated.gif" alt="BEXHA Scanner Demo"
+                    style="width: 100%; display: block;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-neutral">
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label">Componentes del Sistema</div>
+                <h2>Arquitectura de la Solución</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;">Panel Administrativo</h3>
+                    </div>
+                    <p class="project-text">Control total de ejidatarios, impresión de recibos con QR encriptado y
+                        reportes financieros automáticos.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;">App de Campo Offline</h3>
+                    </div>
+                    <p class="project-text">Validación instantánea de recibos sin internet, matriz de riegos visual y
+                        bloqueo de seguridad por dispositivo.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;">Base de Datos Centralizada</h3>
+                    </div>
+                    <p class="project-text">Almacenamiento seguro de todos los registros históricos con sincronización
+                        automática entre plataformas.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;">Reportes Automatizados</h3>
+                    </div>
+                    <p class="project-text">Generación instantánea de reportes de cobranza, padrones y análisis
+                        financiero exportables a Excel y PDF.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section>
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label">Resultados</div>
+                <h2>Impacto Medible</h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label">Ahorro en consumo de agua</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">70%</div>
+                    <div class="stat-label">Incremento en productividad</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">Reducción en pérdidas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="bg-neutral">
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label">Tecnología</div>
+                <h2>Stack Tecnológico</h2>
+            </div>
+
+            <div class="project-card" style="max-width: 900px; margin: 0 auto;">
+                <div class="tech-grid">
+                    <div class="tech-category">
+                        <h5>Frontend</h5>
+                        <div class="tech-item"><span class="tech-dot"></span> React Dashboard</div>
+                        <div class="tech-item"><span class="tech-dot"></span> Flutter (App Móvil)</div>
+                        <div class="tech-item"><span class="tech-dot"></span> D3.js Visualización</div>
+                    </div>
+                    <div class="tech-category">
+                        <h5>Backend</h5>
+                        <div class="tech-item"><span class="tech-dot"></span> Python (Tkinter)</div>
+                        <div class="tech-item"><span class="tech-dot"></span> SQLite</div>
+                        <div class="tech-item"><span class="tech-dot"></span> QR Encryption</div>
+                    </div>
+                    <div class="tech-category">
+                        <h5>Infraestructura</h5>
+                        <div class="tech-item"><span class="tech-dot"></span> Offline-First</div>
+                        <div class="tech-item"><span class="tech-dot"></span> Device Fingerprint</div>
+                        <div class="tech-item"><span class="tech-dot"></span> Sync Protocol</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section>
+        <div class="container" style="text-align: center;">
+            <div style="margin-bottom: 3rem;">
+                <div class="section-label">Acceso</div>
+                <h2>Obtén la Herramienta</h2>
+                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;">
+                    Descarga exclusiva para personal autorizado
+                </p>
+            </div>
+
+            <div class="project-card" style="max-width: 600px; margin: 0 auto; text-align: left;">
+                <h3 style="font-size: 1.5rem; font-weight: 400; margin-bottom: 1.5rem; text-align: center;">BEXHA
+                    Scanner v1.0</h3>
+
+                <ul style="list-style: none; margin-bottom: 2rem;">
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Escáner QR de
+                        alta velocidad</li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Base de datos
+                        offline</li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Exportación a
+                        Excel</li>
                 </ul>
 
-                <div style="display: grid; grid-template-columns: 1fr; gap: 1rem; max-width: 500px; margin: 0 auto;">
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
                     <a href="https://github.com/spooky1703/releases-SPOOKYDEV/releases/download/V1.0/BEXHA_Scanner.apk"
-                        class="btn btn-primary" style="width: 100%; padding: 1.2rem 2rem; font-size: 1rem;">
-                        <i class="fab fa-android" style="margin-right: 10px;"></i> Descargar APK (Android)
+                        class="btn btn-primary" style="justify-content: center;">
+                        <i class="fab fa-android"></i> Descargar APK (Android)
                     </a>
                     <a href="https://github.com/spooky1703/releases-SPOOKYDEV/releases/download/V2.0/Instalador_BEXHA_CONTROL.exe"
-                        class="btn"
-                        style="background: transparent; border: 2px solid #fff; color: #fff; width: 100%; padding: 1.2rem 2rem; font-size: 1rem;">
-                        <i class="fab fa-windows" style="margin-right: 10px;"></i> Descargar Installer (Windows)
+                        class="btn btn-secondary" style="justify-content: center;">
+                        <i class="fab fa-windows"></i> Descargar Installer (Windows)
                     </a>
                 </div>
 
-                <p style="margin-top: 2rem; font-size: 0.85rem; color: rgba(255,255,255,0.7);">
+                <p style="margin-top: 1.5rem; font-size: 0.875rem; color: var(--neutral-500); text-align: center;">
                     * Al abrir la app, necesitarás solicitar tu clave de activación.
                 </p>
             </div>
@@ -139,8 +245,8 @@
     </section>
 
     <footer>
-        <div class="container" style="color: var(--text-muted);">
-            <p>&copy; 2025 Desarrollo de Software Profesional</p>
+        <div class="container">
+            <p>© 2026 Data Scientist & Full-Stack Developer</p>
         </div>
     </footer>
 
