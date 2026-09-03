@@ -1070,3 +1070,41 @@ footer p {
         padding: 1.5rem;
     }
 }
+/* Language Toggle */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.lang-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 9999px;
+    background: transparent;
+    border: 1px solid var(--neutral-300);
+    color: var(--neutral-600);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.lang-toggle:hover {
+    border-color: var(--neutral-900);
+    color: var(--neutral-900);
+}
+
+.lang-toggle i {
+    font-size: 0.75rem;
+}
+
+@media (max-width: 968px) {
+    .nav-actions {
+        gap: 1rem;
+    }
+}

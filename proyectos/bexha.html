@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEXHA CONTROL - Sistema de Riego Inteligente | Alonso Mota</title>
+    <title data-es="BEXHA CONTROL - Sistema de Riego Inteligente | Alonso Mota">BEXHA CONTROL - Smart Irrigation System | Alonso Mota</title>
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/png" href="../assets/SPOOKYDEV.png">
+    <script src="../assets/i18n.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +18,14 @@
         <div class="container">
             <nav>
                 <div class="logo"><a href="../index.html">DS × DEV</a></div>
-                <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
-                    <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> Volver
-                </a>
+                <div class="nav-actions">
+                    <button type="button" class="lang-toggle" aria-label="Switch to Spanish">
+                        <i class="fas fa-globe"></i><span class="lang-toggle-text">ES</span>
+                    </button>
+                    <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
+                        <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> <span data-es="Volver">Back</span>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
@@ -40,16 +46,15 @@
         <div class="hero-content">
             <div class="badge">
                 <span class="badge-dot"></span>
-                IoT & Data Analytics
+                <span data-es="IoT &amp; Data Analytics">IoT & Data Analytics</span>
             </div>
 
             <h1 style="font-size: clamp(2.5rem, 6vw, 4rem);">
                 BEXHA CONTROL
             </h1>
 
-            <p class="subtitle">
-                Sistema de Control de Riego Inteligente para la optimización de recursos hídricos y maximización del
-                rendimiento agrícola.
+            <p class="subtitle" data-es="Sistema de Control de Riego Inteligente para la optimización de recursos hídricos y maximización del rendimiento agrícola.">
+                A Smart Irrigation Control System for optimizing water resources and maximizing agricultural yield.
             </p>
         </div>
     </section>
@@ -60,19 +65,15 @@
             <div class="project-card">
                 <div class="project-grid">
                     <div>
-                        <h4 class="project-section-title">El Desafío</h4>
-                        <p class="project-text">
-                            La Asociación de Usuarios de la Sección 14 enfrentaba problemas críticos en el control de
-                            sus padrones, sumado a una logística lenta en la validación de riegos en campo que generaba
-                            ineficiencias operativas y pérdidas de agua significativas.
+                        <h4 class="project-section-title" data-es="El Desafío">The Challenge</h4>
+                        <p class="project-text" data-es="La Asociación de Usuarios de la Sección 14 enfrentaba problemas críticos en el control de sus padrones, sumado a una logística lenta en la validación de riegos en campo que generaba ineficiencias operativas y pérdidas de agua significativas.">
+                            The Section 14 Water Users Association faced critical problems controlling its registries, together with slow logistics for validating irrigation in the field, which caused operational inefficiencies and significant water losses.
                         </p>
                     </div>
                     <div>
-                        <h4 class="project-section-title">La Solución</h4>
-                        <p class="project-text">
-                            Desarrollamos un ecosistema híbrido (Desktop + Móvil) que digitalizó el 100% de su
-                            operación, eliminando papel y optimizando tiempos de validación con tecnología QR y
-                            sincronización en tiempo real.
+                        <h4 class="project-section-title" data-es="La Solución">The Solution</h4>
+                        <p class="project-text" data-es="Desarrollamos un ecosistema híbrido (Desktop + Móvil) que digitalizó el 100% de su operación, eliminando papel y optimizando tiempos de validación con tecnología QR y sincronización en tiempo real.">
+                            We built a hybrid ecosystem (Desktop + Mobile) that digitized 100% of their operation, eliminating paper and optimizing validation times with QR technology and real-time synchronization.
                         </p>
                     </div>
                 </div>
@@ -84,8 +85,8 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Demostración</div>
-                <h2>Sistema en Acción</h2>
+                <div class="section-label" data-es="Demostración">Demo</div>
+                <h2 data-es="Sistema en Acción">The System in Action</h2>
             </div>
 
             <div
@@ -100,45 +101,41 @@
     <section class="bg-neutral">
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Componentes del Sistema</div>
-                <h2>Arquitectura de la Solución</h2>
+                <div class="section-label" data-es="Componentes del Sistema">System Components</div>
+                <h2 data-es="Arquitectura de la Solución">Solution Architecture</h2>
             </div>
 
             <div class="skills-grid">
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-desktop"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Panel Administrativo</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Panel Administrativo">Admin Panel</h3>
                     </div>
-                    <p class="project-text">Control total de ejidatarios, impresión de recibos con QR encriptado y
-                        reportes financieros automáticos.</p>
+                    <p class="project-text" data-es="Control total de ejidatarios, impresión de recibos con QR encriptado y reportes financieros automáticos.">Full control of landholders, printing of receipts with encrypted QR codes and automatic financial reports.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">App de Campo Offline</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="App de Campo Offline">Offline Field App</h3>
                     </div>
-                    <p class="project-text">Validación instantánea de recibos sin internet, matriz de riegos visual y
-                        bloqueo de seguridad por dispositivo.</p>
+                    <p class="project-text" data-es="Validación instantánea de recibos sin internet, matriz de riegos visual y bloqueo de seguridad por dispositivo.">Instant receipt validation without internet, a visual irrigation matrix and per-device security lock.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Base de Datos Centralizada</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Base de Datos Centralizada">Centralized Database</h3>
                     </div>
-                    <p class="project-text">Almacenamiento seguro de todos los registros históricos con sincronización
-                        automática entre plataformas.</p>
+                    <p class="project-text" data-es="Almacenamiento seguro de todos los registros históricos con sincronización automática entre plataformas.">Secure storage of every historical record with automatic synchronization across platforms.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Reportes Automatizados</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Reportes Automatizados">Automated Reports</h3>
                     </div>
-                    <p class="project-text">Generación instantánea de reportes de cobranza, padrones y análisis
-                        financiero exportables a Excel y PDF.</p>
+                    <p class="project-text" data-es="Generación instantánea de reportes de cobranza, padrones y análisis financiero exportables a Excel y PDF.">Instant generation of billing reports, registries and financial analysis, exportable to Excel and PDF.</p>
                 </div>
             </div>
         </div>
@@ -148,22 +145,22 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Resultados</div>
-                <h2>Impacto Medible</h2>
+                <div class="section-label" data-es="Resultados">Results</div>
+                <h2 data-es="Impacto Medible">Measurable Impact</h2>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-number">40%</div>
-                    <div class="stat-label">Ahorro en consumo de agua</div>
+                    <div class="stat-label" data-es="Ahorro en consumo de agua">Savings in water consumption</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">70%</div>
-                    <div class="stat-label">Incremento en productividad</div>
+                    <div class="stat-label" data-es="Incremento en productividad">Increase in productivity</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">60%</div>
-                    <div class="stat-label">Reducción en pérdidas</div>
+                    <div class="stat-label" data-es="Reducción en pérdidas">Reduction in losses</div>
                 </div>
             </div>
         </div>
@@ -173,8 +170,8 @@
     <section class="bg-neutral">
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Tecnología</div>
-                <h2>Stack Tecnológico</h2>
+                <div class="section-label" data-es="Tecnología">Technology</div>
+                <h2 data-es="Stack Tecnológico">Tech Stack</h2>
             </div>
 
             <div class="project-card" style="max-width: 900px; margin: 0 auto;">
@@ -186,8 +183,8 @@
                             <h5 style="margin: 0;">Frontend</h5>
                         </div>
                         <div class="tech-item"><span class="tech-dot"></span> React Dashboard</div>
-                        <div class="tech-item"><span class="tech-dot"></span> Flutter (App Móvil)</div>
-                        <div class="tech-item"><span class="tech-dot"></span> D3.js Visualización</div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="Flutter (App Móvil)">Flutter (Mobile App)</span></div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="D3.js Visualización">D3.js Visualization</span></div>
                     </div>
                     <div class="tech-category">
                         <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
@@ -203,7 +200,7 @@
                         <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
                             <div class="skill-icon" style="animation: pulse 2s infinite 0.6s;"><i
                                     class="fas fa-server"></i></div>
-                            <h5 style="margin: 0;">Infraestructura</h5>
+                            <h5 style="margin: 0;" data-es="Infraestructura">Infrastructure</h5>
                         </div>
                         <div class="tech-item"><span class="tech-dot"></span> Offline-First</div>
                         <div class="tech-item"><span class="tech-dot"></span> Device Fingerprint</div>
@@ -218,10 +215,10 @@
     <section>
         <div class="container" style="text-align: center;">
             <div style="margin-bottom: 3rem;">
-                <div class="section-label">Acceso</div>
-                <h2>Obtén la Herramienta</h2>
-                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;">
-                    Descarga exclusiva para personal autorizado
+                <div class="section-label" data-es="Acceso">Access</div>
+                <h2 data-es="Obtén la Herramienta">Get the Tool</h2>
+                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;" data-es="Descarga exclusiva para personal autorizado">
+                    Exclusive download for authorized personnel
                 </p>
             </div>
 
@@ -230,27 +227,24 @@
                     Scanner v1.0</h3>
 
                 <ul style="list-style: none; margin-bottom: 2rem;">
-                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Escáner QR de
-                        alta velocidad</li>
-                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Base de datos
-                        offline</li>
-                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Exportación a
-                        Excel</li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> <span data-es="Escáner QR de alta velocidad">High-speed QR scanner</span></li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> <span data-es="Base de datos offline">Offline database</span></li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> <span data-es="Exportación a Excel">Excel export</span></li>
                 </ul>
 
                 <div style="display: flex; flex-direction: column; gap: 1rem;">
                     <a href="https://github.com/spooky1703/releases-SPOOKYDEV/releases/download/V1.0/BEXHA_Scanner.apk"
                         class="btn btn-primary" style="justify-content: center;">
-                        <i class="fab fa-android"></i> Descargar APK (Android)
+                        <i class="fab fa-android"></i> <span data-es="Descargar APK (Android)">Download APK (Android)</span>
                     </a>
                     <a href="https://github.com/spooky1703/releases-SPOOKYDEV/releases/download/V2.0/Instalador_BEXHA_CONTROL.exe"
                         class="btn btn-secondary" style="justify-content: center;">
-                        <i class="fab fa-windows"></i> Descargar Installer (Windows)
+                        <i class="fab fa-windows"></i> <span data-es="Descargar Installer (Windows)">Download Installer (Windows)</span>
                     </a>
                 </div>
 
-                <p style="margin-top: 1.5rem; font-size: 0.875rem; color: var(--neutral-500); text-align: center;">
-                    * Al abrir la app, necesitarás solicitar tu clave de activación.
+                <p style="margin-top: 1.5rem; font-size: 0.875rem; color: var(--neutral-500); text-align: center;" data-es="* Al abrir la app, necesitarás solicitar tu clave de activación.">
+                    * When you open the app, you will need to request your activation key.
                 </p>
             </div>
         </div>

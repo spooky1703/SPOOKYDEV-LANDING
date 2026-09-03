@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PY-P2P - Comunicación Directa | Alonso Mota</title>
+    <title data-es="PY-P2P - Comunicación Directa | Alonso Mota">PY-P2P - Direct Communication | Alonso Mota</title>
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/png" href="../assets/SPOOKYDEV.png">
+    <script src="../assets/i18n.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +18,14 @@
         <div class="container">
             <nav>
                 <div class="logo"><a href="../index.html">DS × DEV</a></div>
-                <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
-                    <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> Volver
-                </a>
+                <div class="nav-actions">
+                    <button type="button" class="lang-toggle" aria-label="Switch to Spanish">
+                        <i class="fas fa-globe"></i><span class="lang-toggle-text">ES</span>
+                    </button>
+                    <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
+                        <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> <span data-es="Volver">Back</span>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
@@ -47,9 +53,8 @@
                 PY-P2P
             </h1>
 
-            <p class="subtitle">
-                Sistema de comunicación peer-to-peer para transferencia de archivos, compartir pantalla y control remoto
-                entre computadoras.
+            <p class="subtitle" data-es="Sistema de comunicación peer-to-peer para transferencia de archivos, compartir pantalla y control remoto entre computadoras.">
+                A peer-to-peer communication system for file transfer, screen sharing and remote control between computers.
             </p>
         </div>
     </section>
@@ -60,18 +65,15 @@
             <div class="project-card">
                 <div class="project-grid">
                     <div>
-                        <h4 class="project-section-title">El Concepto</h4>
-                        <p class="project-text">
-                            Crear una herramienta que permita comunicación instantánea entre dos computadoras en la
-                            misma red, sin depender de servicios externos ni configuraciones complicadas.
+                        <h4 class="project-section-title" data-es="El Concepto">The Concept</h4>
+                        <p class="project-text" data-es="Crear una herramienta que permita comunicación instantánea entre dos computadoras en la misma red, sin depender de servicios externos ni configuraciones complicadas.">
+                            Build a tool that enables instant communication between two computers on the same network, without relying on external services or complicated setup.
                         </p>
                     </div>
                     <div>
-                        <h4 class="project-section-title">La Solución</h4>
-                        <p class="project-text">
-                            Aplicación de escritorio con GUI moderna que auto-descubre dispositivos en la red, permite
-                            transferir archivos de cualquier tamaño, compartir pantalla en tiempo real y controlar otra
-                            computadora remotamente.
+                        <h4 class="project-section-title" data-es="La Solución">The Solution</h4>
+                        <p class="project-text" data-es="Aplicación de escritorio con GUI moderna que auto-descubre dispositivos en la red, permite transferir archivos de cualquier tamaño, compartir pantalla en tiempo real y controlar otra computadora remotamente.">
+                            A desktop application with a modern GUI that auto-discovers devices on the network, transfers files of any size, shares your screen in real time and remotely controls another computer.
                         </p>
                     </div>
                 </div>
@@ -83,27 +85,25 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Capacidades</div>
-                <h2>Características Principales</h2>
+                <div class="section-label" data-es="Capacidades">Capabilities</div>
+                <h2 data-es="Características Principales">Key Features</h2>
             </div>
 
             <div class="skills-grid">
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-search-location"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Auto-Descubrimiento</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Auto-Descubrimiento">Auto-Discovery</h3>
                     </div>
-                    <p class="project-text">Encuentra automáticamente otros dispositivos en tu red WiFi sin necesidad de
-                        escribir IPs manualmente.</p>
+                    <p class="project-text" data-es="Encuentra automáticamente otros dispositivos en tu red WiFi sin necesidad de escribir IPs manualmente.">Automatically finds other devices on your WiFi network with no need to type IP addresses by hand.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-file-export"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Transferencia de Archivos</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Transferencia de Archivos">File Transfer</h3>
                     </div>
-                    <p class="project-text">Envía archivos de cualquier tamaño o carpetas completas con compresión
-                        automática. Soporte para drag & drop.</p>
+                    <p class="project-text" data-es="Envía archivos de cualquier tamaño o carpetas completas con compresión automática. Soporte para drag &amp; drop.">Send files of any size or entire folders with automatic compression. Drag & drop supported.</p>
                 </div>
 
                 <div class="card">
@@ -111,35 +111,31 @@
                         <div class="skill-icon"><i class="fas fa-desktop"></i></div>
                         <h3 style="font-size: 1.25rem; font-weight: 400;">Screen Sharing</h3>
                     </div>
-                    <p class="project-text">Comparte tu pantalla en tiempo real con otro usuario. Ideal para soporte
-                        técnico o colaboración.</p>
+                    <p class="project-text" data-es="Comparte tu pantalla en tiempo real con otro usuario. Ideal para soporte técnico o colaboración.">Share your screen in real time with another user. Ideal for tech support or collaboration.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-mouse-pointer"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Control Remoto</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Control Remoto">Remote Control</h3>
                     </div>
-                    <p class="project-text">Toma el control del mouse y teclado de la otra computadora. Perfecto para
-                        asistencia remota.</p>
+                    <p class="project-text" data-es="Toma el control del mouse y teclado de la otra computadora. Perfecto para asistencia remota.">Take control of the other computer's mouse and keyboard. Perfect for remote assistance.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-comments"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Chat Integrado</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Chat Integrado">Built-in Chat</h3>
                     </div>
-                    <p class="project-text">Comunícate con otros usuarios mientras transfieres archivos con burbujas de
-                        chat modernas.</p>
+                    <p class="project-text" data-es="Comunícate con otros usuarios mientras transfieres archivos con burbujas de chat modernas.">Talk to other users while you transfer files, with modern chat bubbles.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-laptop"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Multiplataforma</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Multiplataforma">Cross-Platform</h3>
                     </div>
-                    <p class="project-text">Funciona en Windows y macOS con soporte nativo para diálogos de sistema en
-                        ambas plataformas.</p>
+                    <p class="project-text" data-es="Funciona en Windows y macOS con soporte nativo para diálogos de sistema en ambas plataformas.">Runs on Windows and macOS with native support for system dialogs on both platforms.</p>
                 </div>
             </div>
         </div>
@@ -149,25 +145,25 @@
     <section class="bg-neutral">
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Beneficios</div>
-                <h2>Sin Dependencias Externas</h2>
+                <div class="section-label" data-es="Beneficios">Benefits</div>
+                <h2 data-es="Sin Dependencias Externas">No External Dependencies</h2>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-wifi"></i></div>
                     <div class="stat-number">0</div>
-                    <div class="stat-label">Servidores necesarios</div>
+                    <div class="stat-label" data-es="Servidores necesarios">Servers required</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-bolt"></i></div>
                     <div class="stat-number">LAN</div>
-                    <div class="stat-label">Velocidad máxima de red</div>
+                    <div class="stat-label" data-es="Velocidad máxima de red">Maximum network speed</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-lock"></i></div>
                     <div class="stat-number">100%</div>
-                    <div class="stat-label">Privado y local</div>
+                    <div class="stat-label" data-es="Privado y local">Private and local</div>
                 </div>
             </div>
         </div>
@@ -177,8 +173,8 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Tecnología</div>
-                <h2>Stack Tecnológico</h2>
+                <div class="section-label" data-es="Tecnología">Technology</div>
+                <h2 data-es="Stack Tecnológico">Tech Stack</h2>
             </div>
 
             <div class="project-card" style="max-width: 900px; margin: 0 auto;">
@@ -191,7 +187,7 @@
                         </div>
                         <div class="tech-item"><span class="tech-dot"></span> Flet (Flutter for Python)</div>
                         <div class="tech-item"><span class="tech-dot"></span> Dark Theme UI</div>
-                        <div class="tech-item"><span class="tech-dot"></span> Drag & Drop nativo</div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="Drag &amp; Drop nativo">Native drag & drop</span></div>
                     </div>
                     <div class="tech-category">
                         <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
@@ -223,9 +219,9 @@
         <div class="container" style="text-align: center;">
             <div style="margin-bottom: 3rem;">
                 <div class="section-label">Open Source</div>
-                <h2>Disponible en GitHub</h2>
-                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;">
-                    Código abierto para contribuciones y uso personal
+                <h2 data-es="Disponible en GitHub">Available on GitHub</h2>
+                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;" data-es="Código abierto para contribuciones y uso personal">
+                    Open source for contributions and personal use
                 </p>
             </div>
 
@@ -233,18 +229,15 @@
                 <h3 style="font-size: 1.5rem; font-weight: 400; margin-bottom: 1.5rem; text-align: center;">PY-P2P</h3>
 
                 <ul style="list-style: none; margin-bottom: 2rem;">
-                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Instalación
-                        sencilla con pip</li>
-                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Solo requiere
-                        Python 3.x + Flet</li>
-                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> Documentación
-                        incluida</li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> <span data-es="Instalación sencilla con pip">Simple installation with pip</span></li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> <span data-es="Solo requiere Python 3.x + Flet">Only requires Python 3.x + Flet</span></li>
+                    <li class="tech-item" style="margin-bottom: 0.75rem;"><span class="tech-dot"></span> <span data-es="Documentación incluida">Documentation included</span></li>
                 </ul>
 
                 <div style="display: flex; flex-direction: column; gap: 1rem;">
                     <a href="https://github.com/spooky1703/PY-P2P" target="_blank" class="btn btn-primary"
                         style="justify-content: center;">
-                        <i class="fab fa-github"></i> Ver en GitHub
+                        <i class="fab fa-github"></i> <span data-es="Ver en GitHub">View on GitHub</span>
                     </a>
                 </div>
             </div>

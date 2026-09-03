@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio San Martín - Sistema de Gestión Clínica | Alonso Mota</title>
+    <title data-es="Laboratorio San Martín - Sistema de Gestión Clínica | Alonso Mota">Laboratorio San Martín - Clinical Management System | Alonso Mota</title>
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/png" href="../assets/SPOOKYDEV.png">
+    <script src="../assets/i18n.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +18,14 @@
         <div class="container">
             <nav>
                 <div class="logo"><a href="../index.html">DS × DEV</a></div>
-                <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
-                    <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> Volver
-                </a>
+                <div class="nav-actions">
+                    <button type="button" class="lang-toggle" aria-label="Switch to Spanish">
+                        <i class="fas fa-globe"></i><span class="lang-toggle-text">ES</span>
+                    </button>
+                    <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
+                        <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> <span data-es="Volver">Back</span>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
@@ -40,16 +46,15 @@
         <div class="hero-content">
             <div class="badge">
                 <span class="badge-dot"></span>
-                SaaS Full-Stack | Healthcare
+                <span data-es="SaaS Full-Stack | Healthcare">SaaS Full-Stack | Healthcare</span>
             </div>
 
             <h1 style="font-size: clamp(2.5rem, 6vw, 4rem);">
                 Laboratorio San Martín
             </h1>
 
-            <p class="subtitle">
-                Sistema integral de gestión clínica para la digitalización completa de laboratorios, desde la recepción
-                hasta la entrega de resultados.
+            <p class="subtitle" data-es="Sistema integral de gestión clínica para la digitalización completa de laboratorios, desde la recepción hasta la entrega de resultados.">
+                An end-to-end clinical management system for the complete digitization of laboratories, from intake to results delivery.
             </p>
         </div>
     </section>
@@ -60,18 +65,15 @@
             <div class="project-card">
                 <div class="project-grid">
                     <div>
-                        <h4 class="project-section-title">El Desafío</h4>
-                        <p class="project-text">
-                            Los laboratorios clínicos enfrentan procesos manuales lentos y propensos a errores en la
-                            gestión de pacientes, captura de resultados y entrega de informes, comprometiendo la
-                            eficiencia operativa y la experiencia del paciente.
+                        <h4 class="project-section-title" data-es="El Desafío">The Challenge</h4>
+                        <p class="project-text" data-es="Los laboratorios clínicos enfrentan procesos manuales lentos y propensos a errores en la gestión de pacientes, captura de resultados y entrega de informes, comprometiendo la eficiencia operativa y la experiencia del paciente.">
+                            Clinical laboratories face slow, error-prone manual processes in patient management, results capture and report delivery, compromising operational efficiency and the patient experience.
                         </p>
                     </div>
                     <div>
-                        <h4 class="project-section-title">La Solución</h4>
-                        <p class="project-text">
-                            Plataforma SaaS Full-Stack que digitalizó el 100% de la operación del laboratorio, desde la
-                            recepción hasta la entrega de resultados con validación automática mediante códigos QR.
+                        <h4 class="project-section-title" data-es="La Solución">The Solution</h4>
+                        <p class="project-text" data-es="Plataforma SaaS Full-Stack que digitalizó el 100% de la operación del laboratorio, desde la recepción hasta la entrega de resultados con validación automática mediante códigos QR.">
+                            A full-stack SaaS platform that digitized 100% of the laboratory's operation, from intake to results delivery with automatic validation through QR codes.
                         </p>
                     </div>
                 </div>
@@ -83,10 +85,10 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Interfaz del Sistema</div>
-                <h2>Recorrido Visual</h2>
-                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;">
-                    Explora las principales funcionalidades a través de capturas reales
+                <div class="section-label" data-es="Interfaz del Sistema">System Interface</div>
+                <h2 data-es="Recorrido Visual">Visual Tour</h2>
+                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;" data-es="Explora las principales funcionalidades a través de capturas reales">
+                    Explore the main features through real screenshots
                 </p>
             </div>
 
@@ -95,50 +97,50 @@
                     <div class="carousel-slide active">
                         <img src="assets-laboratorio/dashboard.png" alt="Panel de Autenticación" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Panel de Autenticación</h3>
-                            <p>Sistema de login seguro con control de acceso por roles</p>
+                            <h3 data-es="Panel de Autenticación">Authentication Panel</h3>
+                            <p data-es="Sistema de login seguro con control de acceso por roles">Secure login system with role-based access control</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="assets-laboratorio/dashboard1.png" alt="Dashboard Operacional" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Dashboard Operacional</h3>
-                            <p>Vista centralizada de operaciones diarias y métricas clave</p>
+                            <h3 data-es="Dashboard Operacional">Operational Dashboard</h3>
+                            <p data-es="Vista centralizada de operaciones diarias y métricas clave">Centralized view of daily operations and key metrics</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="assets-laboratorio/dashboard2.png" alt="Emisión de Reportes" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Emisión de Reportes</h3>
-                            <p>Generación de documentos PDF personalizados por paciente</p>
+                            <h3 data-es="Emisión de Reportes">Report Issuing</h3>
+                            <p data-es="Generación de documentos PDF personalizados por paciente">Generation of PDF documents customized per patient</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="assets-laboratorio/dashboard3.png" alt="Panel de Consulta" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Panel de Consulta de Resultados</h3>
-                            <p>Interfaz de búsqueda y visualización de estudios realizados</p>
+                            <h3 data-es="Panel de Consulta de Resultados">Results Lookup Panel</h3>
+                            <p data-es="Interfaz de búsqueda y visualización de estudios realizados">Search and visualization interface for completed tests</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="assets-laboratorio/dashboard6.png" alt="Panel de Consulta" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Panel con el Catalogo de Estudios Disponibles</h3>
-                            <p>Interfaz de búsqueda y visualización de estudios disponibles como plantilla</p>
+                            <h3 data-es="Panel con el Catalogo de Estudios Disponibles">Panel with the Catalog of Available Tests</h3>
+                            <p data-es="Interfaz de búsqueda y visualización de estudios disponibles como plantilla">Search and visualization interface for available tests used as templates</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="assets-laboratorio/dashboard4.png" alt="Reporte de Resultados" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Reporte de Resultados</h3>
-                            <p>Ejemplo de informe médico con códigos QR de validación</p>
+                            <h3 data-es="Reporte de Resultados">Results Report</h3>
+                            <p data-es="Ejemplo de informe médico con códigos QR de validación">Example of a medical report with QR validation codes</p>
                         </div>
                     </div>
                     <div class="carousel-slide">
                         <img src="assets-laboratorio/dashboard5.png" alt="Portal de Pacientes" loading="lazy">
                         <div class="carousel-caption">
-                            <h3>Portal de Pacientes</h3>
-                            <p>Vista pública accesible mediante QR para consulta de resultados</p>
+                            <h3 data-es="Portal de Pacientes">Patient Portal</h3>
+                            <p data-es="Vista pública accesible mediante QR para consulta de resultados">Public view accessible via QR to look up results</p>
                         </div>
                     </div>
 
@@ -215,44 +217,41 @@
     <section class="bg-neutral">
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Componentes del Sistema</div>
-                <h2>Arquitectura de la Solución</h2>
+                <div class="section-label" data-es="Componentes del Sistema">System Components</div>
+                <h2 data-es="Arquitectura de la Solución">Solution Architecture</h2>
             </div>
 
             <div class="skills-grid">
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-user-md"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Gestión de Pacientes</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Gestión de Pacientes">Patient Management</h3>
                     </div>
-                    <p class="project-text">Expediente digital completo con historial clínico, búsqueda optimizada y
-                        seguimiento en tiempo real.</p>
+                    <p class="project-text" data-es="Expediente digital completo con historial clínico, búsqueda optimizada y seguimiento en tiempo real.">A complete digital record with clinical history, optimized search and real-time tracking.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-flask"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Motor de Estudios Dinámico</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Motor de Estudios Dinámico">Dynamic Test Engine</h3>
                     </div>
-                    <p class="project-text">Sistema flexible para captura de resultados con validación automática de
-                        valores de referencia.</p>
+                    <p class="project-text" data-es="Sistema flexible para captura de resultados con validación automática de valores de referencia.">A flexible system for results capture with automatic validation of reference values.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-file-pdf"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Generación de Reportes</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Generación de Reportes">Report Generation</h3>
                     </div>
-                    <p class="project-text">Motor de renderizado PDF que crea informes profesionales instantáneos con
-                        códigos QR de validación.</p>
+                    <p class="project-text" data-es="Motor de renderizado PDF que crea informes profesionales instantáneos con códigos QR de validación.">A PDF rendering engine that instantly creates professional reports with QR validation codes.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Portal de Pacientes</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Portal de Pacientes">Patient Portal</h3>
                     </div>
-                    <p class="project-text">Consulta online 24/7 con notificaciones automáticas vía WhatsApp y Email.
+                    <p class="project-text" data-es="Consulta online 24/7 con notificaciones automáticas vía WhatsApp y Email.">Online access 24/7 with automatic notifications via WhatsApp and email.
                     </p>
                 </div>
             </div>
@@ -263,22 +262,22 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Resultados</div>
-                <h2>Impacto Medible</h2>
+                <div class="section-label" data-es="Resultados">Results</div>
+                <h2 data-es="Impacto Medible">Measurable Impact</h2>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-number">85%</div>
-                    <div class="stat-label">Reducción en tiempo de procesamiento</div>
+                    <div class="stat-label" data-es="Reducción en tiempo de procesamiento">Reduction in processing time</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">100%</div>
-                    <div class="stat-label">Eliminación de errores manuales</div>
+                    <div class="stat-label" data-es="Eliminación de errores manuales">Elimination of manual errors</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">90%</div>
-                    <div class="stat-label">Mejora en satisfacción del paciente</div>
+                    <div class="stat-label" data-es="Mejora en satisfacción del paciente">Improvement in patient satisfaction</div>
                 </div>
             </div>
         </div>
@@ -288,8 +287,8 @@
     <section class="bg-neutral">
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Tecnología</div>
-                <h2>Stack Tecnológico</h2>
+                <div class="section-label" data-es="Tecnología">Technology</div>
+                <h2 data-es="Stack Tecnológico">Tech Stack</h2>
             </div>
 
             <div class="project-card" style="max-width: 900px; margin: 0 auto;">
@@ -320,11 +319,11 @@
                         <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
                             <div class="skill-icon" style="animation: pulse 2s infinite 0.6s;"><i
                                     class="fas fa-cloud"></i></div>
-                            <h5 style="margin: 0;">Infraestructura</h5>
+                            <h5 style="margin: 0;" data-es="Infraestructura">Infrastructure</h5>
                         </div>
                         <div class="tech-item"><span class="tech-dot"></span> Railway Cloud Platform</div>
-                        <div class="tech-item"><span class="tech-dot"></span> CI/CD Automatizado</div>
-                        <div class="tech-item"><span class="tech-dot"></span> Monitoreo en tiempo real</div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="CI/CD Automatizado">Automated CI/CD</span></div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="Monitoreo en tiempo real">Real-time monitoring</span></div>
                     </div>
                 </div>
             </div>

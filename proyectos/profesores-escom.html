@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recomendación Profesores ESCOM | Alonso Mota</title>
+    <title data-es="Recomendación Profesores ESCOM | Alonso Mota">ESCOM Professor Recommendation | Alonso Mota</title>
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/png" href="../assets/SPOOKYDEV.png">
+    <script src="../assets/i18n.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +18,14 @@
         <div class="container">
             <nav>
                 <div class="logo"><a href="../index.html">DS × DEV</a></div>
-                <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
-                    <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> Volver
-                </a>
+                <div class="nav-actions">
+                    <button type="button" class="lang-toggle" aria-label="Switch to Spanish">
+                        <i class="fas fa-globe"></i><span class="lang-toggle-text">ES</span>
+                    </button>
+                    <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
+                        <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> <span data-es="Volver">Back</span>
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
@@ -40,15 +46,15 @@
         <div class="hero-content">
             <div class="badge">
                 <span class="badge-dot"></span>
-                Full-Stack AI & Web Scraping
+                <span data-es="Full-Stack AI & Web Scraping">Full-Stack AI & Web Scraping</span>
             </div>
 
-            <h1 style="font-size: clamp(2.5rem, 6vw, 4rem);">
-                Recomendación de Profesores
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4rem);" data-es="Recomendación de Profesores">
+                Professor Recommendation
             </h1>
 
-            <p class="subtitle">
-                Sistema inteligente que convierte la inscripción académica en una decisión basada en datos, experiencia colectiva y algoritmos de NLP.
+            <p class="subtitle" data-es="Sistema inteligente que convierte la inscripción académica en una decisión basada en datos, experiencia colectiva y algoritmos de NLP.">
+                A smart system that turns course enrollment into a decision driven by data, collective experience and NLP algorithms.
             </p>
         </div>
     </section>
@@ -59,15 +65,15 @@
             <div class="project-card">
                 <div class="project-grid">
                     <div>
-                        <h4 class="project-section-title">El Desafío</h4>
-                        <p class="project-text">
-                            Los estudiantes de la ESCOM enfrentan incertidumbre en la elección de profesores durante sus inscripciones semestrales, resultando en horarios ineficientes o con una alta carga académica. La información suele estar dispersa en reseñas no estructuradas o rumores.
+                        <h4 class="project-section-title" data-es="El Desafío">The Challenge</h4>
+                        <p class="project-text" data-es="Los estudiantes de la ESCOM enfrentan incertidumbre en la elección de profesores durante sus inscripciones semestrales, resultando en horarios ineficientes o con una alta carga académica. La información suele estar dispersa en reseñas no estructuradas o rumores.">
+                            ESCOM students face uncertainty when choosing professors during each semester's enrollment, ending up with inefficient schedules or a heavy academic load. The information is usually scattered across unstructured reviews or word of mouth.
                         </p>
                     </div>
                     <div>
-                        <h4 class="project-section-title">La Solución</h4>
-                        <p class="project-text">
-                            Desarrollamos una plataforma web impulsada por NLP y scraping inteligente que recolecta, analiza y extrae métricas accionables (calidad, dificultad y sentimiento) de cientos de reseñas, permitiendo automatizar la creación de horarios ideales basados en el perfil del estudiante.
+                        <h4 class="project-section-title" data-es="La Solución">The Solution</h4>
+                        <p class="project-text" data-es="Desarrollamos una plataforma web impulsada por NLP y scraping inteligente que recolecta, analiza y extrae métricas accionables (calidad, dificultad y sentimiento) de cientos de reseñas, permitiendo automatizar la creación de horarios ideales basados en el perfil del estudiante.">
+                            We built a web platform powered by NLP and smart scraping that collects, analyzes and extracts actionable metrics (quality, difficulty and sentiment) from hundreds of reviews, automating the creation of ideal schedules based on each student's profile.
                         </p>
                     </div>
                 </div>
@@ -79,41 +85,41 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Componentes del Sistema</div>
-                <h2>Arquitectura Inteligente</h2>
+                <div class="section-label" data-es="Componentes del Sistema">System Components</div>
+                <h2 data-es="Arquitectura Inteligente">Intelligent Architecture</h2>
             </div>
 
             <div class="skills-grid">
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-spider"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Web Scraping y Fuzzy Matching</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Web Scraping y Fuzzy Matching">Web Scraping and Fuzzy Matching</h3>
                     </div>
-                    <p class="project-text">Módulo de recolección automatizada enfocado en extraer información de reseñas. Utiliza coincidencias difusas para tolerar variaciones en los nombres de los profesores.</p>
+                    <p class="project-text" data-es="Módulo de recolección automatizada enfocado en extraer información de reseñas. Utiliza coincidencias difusas para tolerar variaciones en los nombres de los profesores.">An automated collection module focused on extracting information from reviews. It uses fuzzy matching to tolerate variations in professors' names.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-language"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">NLP y Análisis de Sentimiento</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="NLP y Análisis de Sentimiento">NLP and Sentiment Analysis</h3>
                     </div>
-                    <p class="project-text">Procesamiento de texto que extrae atributos clave ("Fácil de aprobar", "Exámenes difíciles") y calcula el sentimiento global a partir de las reseñas.</p>
+                    <p class="project-text" data-es="Procesamiento de texto que extrae atributos clave (&quot;Fácil de aprobar&quot;, &quot;Exámenes difíciles&quot;) y calcula el sentimiento global a partir de las reseñas.">Text processing that extracts key attributes ("easy to pass", "hard exams") and computes overall sentiment from the reviews.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-calendar-check"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Planificador de Horarios</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Planificador de Horarios">Schedule Planner</h3>
                     </div>
-                    <p class="project-text">Motor algorítmico que detecta choques de materias, minimiza huecos excesivos e identifica días sobrecargados.</p>
+                    <p class="project-text" data-es="Motor algorítmico que detecta choques de materias, minimiza huecos excesivos e identifica días sobrecargados.">An algorithmic engine that detects course clashes, minimizes excessive gaps and flags overloaded days.</p>
                 </div>
 
                 <div class="card">
                     <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
                         <div class="skill-icon"><i class="fas fa-robot"></i></div>
-                        <h3 style="font-size: 1.25rem; font-weight: 400;">Recomendación Personalizada</h3>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Recomendación Personalizada">Personalized Recommendation</h3>
                     </div>
-                    <p class="project-text">Sistema multicriterio que pondera variables para generar sugerencias según las prioridades del alumno (minimizar tareas, priorizar aprendizaje, etc.).</p>
+                    <p class="project-text" data-es="Sistema multicriterio que pondera variables para generar sugerencias según las prioridades del alumno (minimizar tareas, priorizar aprendizaje, etc.).">A multi-criteria system that weighs variables to generate suggestions based on the student's priorities (minimize homework, prioritize learning, etc.).</p>
                 </div>
             </div>
         </div>
@@ -123,18 +129,18 @@
     <section class="bg-neutral">
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Resultados</div>
-                <h2>Escala e Impacto</h2>
+                <div class="section-label" data-es="Resultados">Results</div>
+                <h2 data-es="Escala e Impacto">Scale and Impact</h2>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-number">455+</div>
-                    <div class="stat-label">Profesores indexados</div>
+                    <div class="stat-label" data-es="Profesores indexados">Professors indexed</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">10</div>
-                    <div class="stat-label">Atributos clave analizados por IA</div>
+                    <div class="stat-label" data-es="Atributos clave analizados por IA">Key attributes analyzed by AI</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">100%</div>
@@ -148,8 +154,8 @@
     <section>
         <div class="container">
             <div style="margin-bottom: 3rem; text-align: center;">
-                <div class="section-label">Tecnología</div>
-                <h2>Stack Tecnológico</h2>
+                <div class="section-label" data-es="Tecnología">Technology</div>
+                <h2 data-es="Stack Tecnológico">Tech Stack</h2>
             </div>
 
             <div class="project-card" style="max-width: 900px; margin: 0 auto;">
@@ -178,11 +184,11 @@
                         <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
                             <div class="skill-icon" style="animation: pulse 2s infinite 0.6s;"><i
                                     class="fas fa-brain"></i></div>
-                            <h5 style="margin: 0;">IA & Scraping</h5>
+                            <h5 style="margin: 0;" data-es="IA &amp; Scraping">AI & Scraping</h5>
                         </div>
                         <div class="tech-item"><span class="tech-dot"></span> BeautifulSoup & TheFuzz</div>
-                        <div class="tech-item"><span class="tech-dot"></span> NLP & Análisis de Sentimiento</div>
-                        <div class="tech-item"><span class="tech-dot"></span> Módulo OpenAI Compatible</div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="NLP & Análisis de Sentimiento">NLP & Sentiment Analysis</span></div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="Módulo OpenAI Compatible">OpenAI-compatible module</span></div>
                     </div>
                 </div>
             </div>
@@ -193,12 +199,12 @@
     <section class="bg-neutral">
         <div class="container" style="text-align: center;">
             <div style="margin-bottom: 3rem;">
-                <div class="section-label">Demo en Vivo</div>
-                <h2>Prueba el Sistema</h2>
+                <div class="section-label" data-es="Demo en Vivo">Live Demo</div>
+                <h2 data-es="Prueba el Sistema">Try the System</h2>
             </div>
 
             <a href="https://profesores-escom-ziqv.vercel.app/" target="_blank" class="btn btn-primary" style="justify-content: center; max-width: 300px; margin: 0 auto;">
-                <i class="fas fa-external-link-alt"></i> Visitar Web App
+                <i class="fas fa-external-link-alt"></i> <span data-es="Visitar Web App">Visit Web App</span>
             </a>
         </div>
     </section>
