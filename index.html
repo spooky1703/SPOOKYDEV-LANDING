@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alonso Mota - Data Scientist & Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/SPOOKYDEV.png">
+    <script src="assets/i18n.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">DS × DEVV</div>
+                <div class="nav-actions">
+                    <div class="nav-links">
+                        <a href="#proyectos" data-es="Proyectos">Projects</a>
+                        <a href="#skills" data-es="Skills">Skills</a>
+                        <a href="#experiencia" data-es="Experiencia">Experience</a>
+                        <a href="#contacto" data-es="Contacto">Contact</a>
+                    </div>
+                    <button type="button" class="lang-toggle" aria-label="Switch to Spanish">
+                        <i class="fas fa-globe"></i><span class="lang-toggle-text">ES</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Grid Pattern Background -->
+        <div class="hero-bg grid-pattern"></div>
+
+        <div class="hero-content">
+            <div class="badge">
+                <span class="badge-dot"></span>
+                <span data-es="Disponible para proyectos">Available for projects</span>
+            </div>
+
+            <h1>Alonso Mota</h1>
+
+            <p
+                style="font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 300; color: var(--neutral-500); margin-bottom: 2rem;">
+                Data Scientist <span style="color: var(--neutral-300);">&</span> Full-Stack Developer
+            </p>
+
+            <p class="subtitle" data-es="Transformo problemas complejos en soluciones elegantes. Creando software que impacta negocios reales.">
+                I turn complex problems into elegant solutions.
+                Building software that impacts real businesses.
+            </p>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#proyectos" class="btn btn-primary">
+                    <span data-es="Ver Proyectos">View Projects</span>
+                    <i class="fas fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i>
+                </a>
+                <a href="#contacto" class="btn btn-secondary" data-es="Contactar">Get in Touch</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/spooky1703" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alonso-mota-b638281a7/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:ryverz.alonso@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down" style="color: var(--neutral-400);"></i>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="bg-neutral">
+        <div class="container">
+            <div style="margin-bottom: 4rem;">
+                <div class="section-label" data-es="Casos de Éxito">Success Stories</div>
+                <h2 data-es="Proyectos Destacados">Featured Projects</h2>
+                <p class="section-subtitle" data-es="Soluciones reales para problemas reales">Real solutions for real
+                    problems</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 3rem;">
+                <!-- Project 1: Sismos Mexico -->
+                <div class="project-card">
+                    <span class="project-number" data-es="PROYECTO 01">PROJECT 01</span>
+                    <h3 class="project-title" data-es="Análisis de Patrones Sísmicos">Seismic Pattern Analysis</h3>
+                    <p class="project-subtitle" data-es="Machine Learning & Data Science | Sismología">Machine Learning
+                        & Data Science | Seismology</p>
+
+                    <div class="impact-grid" style="margin: 2rem 0;">
+                        <div class="impact-card" style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                219k+</div>
+                            <p data-es="Eventos analizados">Events analyzed</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                100%</div>
+                            <p data-es="Precisión en modelos">Model accuracy</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-chart-bar"></i></div>
+                            <p data-es="Detección de anomalías">Anomaly detection</p>
+                        </div>
+                    </div>
+
+                    <p class="project-text" style="margin-bottom: 2rem;" data-es="Proyecto integral de análisis de datos y machine learning enfocado en los patrones sísmicos de Guerrero, Michoacán y Oaxaca usando datos históricos del SSN (1970–2026).">End-to-end data analysis and machine learning project focused on the seismic patterns of Guerrero, Michoacán and Oaxaca using historical SSN data (1970–2026).</p>
+
+                    <a href="proyectos/sismos-mexico.html" class="btn btn-primary">
+                        <span data-es="Ver Caso Completo">View Full Case</span>
+                        <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+
+                <!-- Project 2: Profesores ESCOM -->
+                <div class="project-card">
+                    <span class="project-number" data-es="PROYECTO 02">PROJECT 02</span>
+                    <h3 class="project-title" data-es="Sistema de Recomendación de Profesores">Professor Recommendation
+                        System</h3>
+                    <p class="project-subtitle">Full-Stack AI & Web Scraping | EdTech</p>
+
+                    <div class="impact-grid" style="margin: 2rem 0;">
+                        <div class="impact-card" style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-brain"></i></div>
+                            <p data-es="NLP y Sentimiento">NLP & Sentiment</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-spider"></i></div>
+                            <p data-es="Scraping Inteligente">Smart Scraping</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-calendar-alt"></i></div>
+                            <p data-es="Horarios Óptimos">Optimal Schedules</p>
+                        </div>
+                    </div>
+
+                    <p class="project-text" style="margin-bottom: 2rem;" data-es="Aplicación web inteligente que ayuda a estudiantes a elegir la mejor combinación de profesores mediante recolección de reseñas, NLP, evaluación multicriterio y planificador de horarios.">Smart web application that helps students choose the best combination of professors through review collection, NLP, multi-criteria evaluation and a schedule planner.</p>
+
+                    <a href="proyectos/profesores-escom.html" class="btn btn-primary">
+                        <span data-es="Ver Caso Completo">View Full Case</span>
+                        <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+
+                <!-- Project 3: Laboratorio -->
+                <div class="project-card">
+                    <span class="project-number" data-es="PROYECTO 03">PROJECT 03</span>
+                    <h3 class="project-title" data-es="Sistema de Gestión para Laboratorios Clínicos">Clinical
+                        Laboratory Management System</h3>
+                    <p class="project-subtitle">SaaS Full-Stack | Healthcare Innovation</p>
+
+                    <div class="impact-grid" style="margin: 2rem 0;">
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                85%</div>
+                            <p data-es="Reducción en tiempos">Time reduction</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                0%</div>
+                            <p data-es="Cero errores manuales">Zero manual errors</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                90%</div>
+                            <p data-es="Satisfacción">Satisfaction</p>
+                        </div>
+                    </div>
+
+                    <p class="project-text" style="margin-bottom: 2rem;" data-es="Plataforma SaaS que digitalizó el 100% de la operación del laboratorio, desde la recepción hasta la entrega de resultados con validación automática mediante códigos QR.">SaaS
+                        platform that digitized 100% of the laboratory's operation, from intake to results delivery
+                        with automatic validation through QR codes.</p>
+
+                    <a href="proyectos/laboratorio.html" class="btn btn-primary">
+                        <span data-es="Ver Caso Completo">View Full Case</span>
+                        <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+
+                <!-- Project 2: BEXHA -->
+                <div class="project-card">
+                    <span class="project-number" data-es="PROYECTO 04">PROJECT 04</span>
+                    <h3 class="project-title" data-es="Sistema de Control de Riego Inteligente">Smart Irrigation Control
+                        System</h3>
+                    <p class="project-subtitle">IoT & Data Analytics | AgriTech</p>
+
+                    <div class="impact-grid" style="margin: 2rem 0;">
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                40%</div>
+                            <p data-es="Ahorro en agua">Water savings</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                70%</div>
+                            <p data-es="Mayor productividad">Higher productivity</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                60%</div>
+                            <p data-es="Menos pérdidas">Fewer losses</p>
+                        </div>
+                    </div>
+
+                    <p class="project-text" style="margin-bottom: 2rem;" data-es="Ecosistema híbrido (Desktop + Móvil) que digitalizó el 100% de la operación de un centro de riego, eliminando papel y optimizando tiempos con tecnología QR y sincronización offline.">Hybrid
+                        ecosystem (Desktop + Mobile) that digitized 100% of an irrigation center's operation,
+                        eliminating paper and optimizing times with QR technology and offline sync.</p>
+
+                    <a href="proyectos/bexha.html" class="btn btn-primary">
+                        <span data-es="Ver Caso Completo">View Full Case</span>
+                        <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+
+                <!-- Project 3: PY-P2P -->
+                <div class="project-card">
+                    <span class="project-number" data-es="PROYECTO 05">PROJECT 05</span>
+                    <h3 class="project-title" data-es="PY-P2P: Comunicación Directa">PY-P2P: Direct Communication</h3>
+                    <p class="project-subtitle">Networking & Desktop App | Open Source</p>
+
+                    <div class="impact-grid" style="margin: 2rem 0;">
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <p data-es="Transferencia instantánea">Instant transfer</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <p data-es="Screen sharing">Screen sharing</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <p data-es="Control remoto">Remote control</p>
+                        </div>
+                    </div>
+
+                    <p class="project-text" style="margin-bottom: 2rem;" data-es="Sistema P2P que permite transferir archivos, compartir pantalla y controlar remotamente otra computadora en la misma red. Diseño moderno con auto-descubrimiento de dispositivos y drag & drop.">P2P
+                        system that lets you transfer files, share your screen and remotely control another computer on
+                        the same network. Modern design with device auto-discovery and drag & drop.</p>
+
+                    <a href="proyectos/pyp2p.html" class="btn btn-primary">
+                        <span data-es="Ver Caso Completo">View Full Case</span>
+                        <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+
+                <!-- Project 4: Photo Swipe Organizer -->
+                <div class="project-card">
+                    <span class="project-number" data-es="PROYECTO 06">PROJECT 06</span>
+                    <h3 class="project-title">Photo Swipe Organizer</h3>
+                    <p class="project-subtitle">iOS App | SwiftUI</p>
+
+                    <div class="impact-grid" style="margin: 2rem 0;">
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-hand-pointer"></i>
+                            </div>
+                            <p data-es="Swipe to organize">Swipe to organize</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <p data-es="100% privado">100% private</p>
+                        </div>
+                        <div class="impact-card" style="text-align: center;">
+                            <div
+                                style="font-size: 2rem; font-weight: 300; color: var(--neutral-900); margin-bottom: 0.25rem;">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <p data-es="Nativo iOS">Native iOS</p>
+                        </div>
+                    </div>
+
+                    <p class="project-text" style="margin-bottom: 2rem;" data-es="App iOS nativa con SwiftUI para organizar tu galería con gestos de deslizamiento. Interfaz estilo terminal retro-tech, filtros inteligentes y procesamiento 100% local.">Native
+                        iOS app built with SwiftUI to organize your gallery with swipe gestures. Retro-tech terminal
+                        style interface, smart filters and 100% local processing.</p>
+
+                    <a href="proyectos/photoswipe.html" class="btn btn-primary">
+                        <span data-es="Ver Caso Completo">View Full Case</span>
+                        <i class="fas fa-arrow-right" style="font-size: 0.75rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div style="margin-bottom: 4rem;">
+                <div class="section-label" data-es="Experiencia Técnica">Technical Expertise</div>
+                <h2 data-es="Stack Tecnológico">Tech Stack</h2>
+                <p class="section-subtitle" data-es="Herramientas que domino para crear soluciones excepcionales">Tools
+                    I master to build exceptional solutions</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                            <div>
+                                <div class="skill-name">Python</div>
+                                <div class="skill-category">Backend & Data</div>
+                            </div>
+                        </div>
+                        <div class="skill-level">98%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 98%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                            <div>
+                                <div class="skill-name">C++</div>
+                                <div class="skill-category">Algorithms & Performance</div>
+                            </div>
+                        </div>
+                        <div class="skill-level">92%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 92%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <div>
+                                <div class="skill-name">Next.js/React</div>
+                                <div class="skill-category">Frontend</div>
+                            </div>
+                        </div>
+                        <div class="skill-level">95%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <div>
+                                <div class="skill-name">PostgreSQL</div>
+                                <div class="skill-category">Databases</div>
+                            </div>
+                        </div>
+                        <div class="skill-level">90%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <div>
+                                <div class="skill-name">Machine Learning</div>
+                                <div class="skill-category">AI & Analytics</div>
+                            </div>
+                        </div>
+                        <div class="skill-level">88%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 88%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-info">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <div>
+                                <div class="skill-name">Data Analysis</div>
+                                <div class="skill-category">Data Science</div>
+                            </div>
+                        </div>
+                        <div class="skill-level">94%</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 94%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-award"></i></div>
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label" data-es="Años de Experiencia">Years of Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label" data-es="Proyectos Completados">Completed Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="stat-number">IPN</div>
+                    <div class="stat-label" data-es="Lic. Ciencia de Datos">BSc in Data Science</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiencia" class="bg-neutral">
+        <div class="container">
+            <div style="margin-bottom: 4rem;">
+                <div class="section-label" data-es="Recorrido Profesional">Professional Journey</div>
+                <h2 data-es="Trayectoria">Career Path</h2>
+                <p class="section-subtitle" data-es="De la olimpiada a la industria">From the olympiad to the industry
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Data Scientist & Full-Stack Developer</h3>
+                                <p class="timeline-company" data-es="Freelance & Consultoría">Freelance & Consulting</p>
+                            </div>
+                            <span class="timeline-period" data-es="2024 - Presente">2024 - Present</span>
+                        </div>
+                        <p class="timeline-description" data-es="Desarrollo de soluciones tecnológicas integrales para empresas del sector salud y agrícola. Especializado en la transformación digital de procesos operativos y la creación de sistemas personalizados que generan impacto medible.">
+                            Development of end-to-end technology solutions for companies in the healthcare and
+                            agricultural sectors. Specialized in the digital transformation of operational processes and
+                            in building custom systems that generate measurable impact.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li data-es="Digitalización completa de operaciones para laboratorios clínicos">Complete
+                                digitization of operations for clinical laboratories</li>
+                            <li data-es="Desarrollo de sistemas de gestión con tecnología de vanguardia dando soluciones elegantes y eficientes a problemas complejos">Development
+                                of management systems with cutting-edge technology, delivering elegant and efficient
+                                solutions to complex problems</li>
+                            <li data-es="Reducción promedio del 70% en tiempos operativos de clientes">Average 70%
+                                reduction in clients' operational times</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title" data-es="Olimpiada Mexicana de Informática">Mexican
+                                    Informatics Olympiad</h3>
+                                <p class="timeline-company" data-es="Competidor Estatal">State-level Competitor</p>
+                            </div>
+                            <span class="timeline-period">2023 - 2024</span>
+                        </div>
+                        <p class="timeline-description" data-es="Preparación intensiva y participación en la competencia estatal de algoritmos y programación, desarrollando habilidades fundamentales en resolución de problemas y optimización de código.">
+                            Intensive preparation for and participation in the state algorithms and programming
+                            competition, developing fundamental skills in problem solving and code optimization.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li data-es="Dominio de algoritmos y estructuras de datos en C++">Mastery of algorithms and
+                                data structures in C++</li>
+                            <li data-es="Desarrollo de pensamiento analítico bajo presión">Development of analytical
+                                thinking under pressure</li>
+                            <li data-es="Experiencia en análisis de complejidad computacional">Experience in
+                                computational complexity analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title" data-es="Formación Inicial & Proyectos Personales">Early
+                                    Training & Personal Projects</h3>
+                                <p class="timeline-company" data-es="Aprendizaje Autodidacta">Self-taught Learning</p>
+                            </div>
+                            <span class="timeline-period">2020 - 2023</span>
+                        </div>
+                        <p class="timeline-description" data-es="Etapa de exploración y formación técnica autodidacta, construyendo las bases de programación mientras colaboraba en proyectos diversos que consolidaron mi pasión por el desarrollo de software.">
+                            A stage of exploration and self-taught technical training, building programming fundamentals
+                            while collaborating on diverse projects that cemented my passion for software development.
+                        </p>
+                        <ul class="timeline-achievements">
+                            <li data-es="Fundamentos sólidos en Python, JavaScript y bases de datos">Solid foundations
+                                in Python, JavaScript and databases</li>
+                            <li data-es="Primeros proyectos freelance para pequeños negocios locales">First freelance
+                                projects for small local businesses</li>
+                            <li data-es="Construcción de portafolio técnico y experiencia práctica">Building a technical
+                                portfolio and hands-on experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto">
+        <div class="container" style="max-width: 900px; text-align: center;">
+            <h2 data-es="¿Listo para innovar?">Ready to innovate?</h2>
+            <p class="section-subtitle" style="max-width: 600px; margin: 0 auto 3rem;" data-es="Transformemos tu idea en realidad. Desarrollo soluciones completas que generan resultados medibles.">
+                Let's turn your idea into reality. I build complete solutions that deliver measurable results.
+            </p>
+
+            <div class="contact-grid">
+                <a href="mailto:ryverz.alonso@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-title">Email</div>
+                    <div class="contact-text">ryverz.alonso@gmail.com</div>
+                </a>
+                <a href="https://github.com/spooky1703" target="_blank" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <div class="contact-title">GitHub</div>
+                    <div class="contact-text" data-es="Ver código">View code</div>
+                </a>
+                <a href="https://wa.me/528137006569" target="_blank" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="contact-title">WhatsApp</div>
+                    <div class="contact-text">+52 8137006569</div>
+                </a>
+            </div>
+
+            <a href="mailto:ryverz.alonso@gmail.com" class="btn btn-primary">
+                <span data-es="Iniciar Proyecto">Start a Project</span>
+                <i class="fas fa-arrow-up-right-from-square" style="font-size: 0.75rem;"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-es="© 2026 Data Scientist & Full-Stack Developer. Construido con HTML + CSS">© 2026 Data Scientist
+                & Full-Stack Developer. Built with HTML + CSS</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

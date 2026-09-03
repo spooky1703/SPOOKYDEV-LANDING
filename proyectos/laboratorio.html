@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-es="Laboratorio San Martín - Sistema de Gestión Clínica | Alonso Mota">Laboratorio San Martín - Clinical Management System | Alonso Mota</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../assets/SPOOKYDEV.png">
+    <script src="../assets/i18n.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="../index.html">DS × DEV</a></div>
+                <div class="nav-actions">
+                    <button type="button" class="lang-toggle" aria-label="Switch to Spanish">
+                        <i class="fas fa-globe"></i><span class="lang-toggle-text">ES</span>
+                    </button>
+                    <a href="../index.html" class="btn btn-secondary" style="padding: 0.5rem 1.5rem;">
+                        <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i> <span data-es="Volver">Back</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 70vh;">
+        <!-- Geometric Background -->
+        <div class="hero-bg">
+            <div class="geo-circle geo-1"></div>
+            <div class="geo-circle geo-2"></div>
+            <div class="geo-line geo-3"></div>
+            <div class="geo-line geo-4"></div>
+            <div class="geo-dot geo-5"></div>
+            <div class="geo-dot geo-6"></div>
+            <div class="geo-ring geo-7"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="badge">
+                <span class="badge-dot"></span>
+                <span data-es="SaaS Full-Stack | Healthcare">SaaS Full-Stack | Healthcare</span>
+            </div>
+
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4rem);">
+                Laboratorio San Martín
+            </h1>
+
+            <p class="subtitle" data-es="Sistema integral de gestión clínica para la digitalización completa de laboratorios, desde la recepción hasta la entrega de resultados.">
+                An end-to-end clinical management system for the complete digitization of laboratories, from intake to results delivery.
+            </p>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="bg-neutral">
+        <div class="container">
+            <div class="project-card">
+                <div class="project-grid">
+                    <div>
+                        <h4 class="project-section-title" data-es="El Desafío">The Challenge</h4>
+                        <p class="project-text" data-es="Los laboratorios clínicos enfrentan procesos manuales lentos y propensos a errores en la gestión de pacientes, captura de resultados y entrega de informes, comprometiendo la eficiencia operativa y la experiencia del paciente.">
+                            Clinical laboratories face slow, error-prone manual processes in patient management, results capture and report delivery, compromising operational efficiency and the patient experience.
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="project-section-title" data-es="La Solución">The Solution</h4>
+                        <p class="project-text" data-es="Plataforma SaaS Full-Stack que digitalizó el 100% de la operación del laboratorio, desde la recepción hasta la entrega de resultados con validación automática mediante códigos QR.">
+                            A full-stack SaaS platform that digitized 100% of the laboratory's operation, from intake to results delivery with automatic validation through QR codes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Carousel -->
+    <section>
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label" data-es="Interfaz del Sistema">System Interface</div>
+                <h2 data-es="Recorrido Visual">Visual Tour</h2>
+                <p class="section-subtitle" style="max-width: 500px; margin: 1rem auto 0;" data-es="Explora las principales funcionalidades a través de capturas reales">
+                    Explore the main features through real screenshots
+                </p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto;">
+                <div id="carousel">
+                    <div class="carousel-slide active">
+                        <img src="assets-laboratorio/dashboard.png" alt="Panel de Autenticación" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Panel de Autenticación">Authentication Panel</h3>
+                            <p data-es="Sistema de login seguro con control de acceso por roles">Secure login system with role-based access control</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard1.png" alt="Dashboard Operacional" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Dashboard Operacional">Operational Dashboard</h3>
+                            <p data-es="Vista centralizada de operaciones diarias y métricas clave">Centralized view of daily operations and key metrics</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard2.png" alt="Emisión de Reportes" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Emisión de Reportes">Report Issuing</h3>
+                            <p data-es="Generación de documentos PDF personalizados por paciente">Generation of PDF documents customized per patient</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard3.png" alt="Panel de Consulta" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Panel de Consulta de Resultados">Results Lookup Panel</h3>
+                            <p data-es="Interfaz de búsqueda y visualización de estudios realizados">Search and visualization interface for completed tests</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard6.png" alt="Panel de Consulta" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Panel con el Catalogo de Estudios Disponibles">Panel with the Catalog of Available Tests</h3>
+                            <p data-es="Interfaz de búsqueda y visualización de estudios disponibles como plantilla">Search and visualization interface for available tests used as templates</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard4.png" alt="Reporte de Resultados" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Reporte de Resultados">Results Report</h3>
+                            <p data-es="Ejemplo de informe médico con códigos QR de validación">Example of a medical report with QR validation codes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="assets-laboratorio/dashboard5.png" alt="Portal de Pacientes" loading="lazy">
+                        <div class="carousel-caption">
+                            <h3 data-es="Portal de Pacientes">Patient Portal</h3>
+                            <p data-es="Vista pública accesible mediante QR para consulta de resultados">Public view accessible via QR to look up results</p>
+                        </div>
+                    </div>
+
+                    <button class="carousel-btn carousel-prev" onclick="moveSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn carousel-next" onclick="moveSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <div class="carousel-indicators">
+                        <span class="indicator active" onclick="goToSlide(0)"></span>
+                        <span class="indicator" onclick="goToSlide(1)"></span>
+                        <span class="indicator" onclick="goToSlide(2)"></span>
+                        <span class="indicator" onclick="goToSlide(3)"></span>
+                        <span class="indicator" onclick="goToSlide(4)"></span>
+                        <span class="indicator" onclick="goToSlide(5)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const indicators = document.querySelectorAll('.indicator');
+        let autoPlayInterval;
+        let userInteracting = false;
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(ind => ind.classList.remove('active'));
+            if (n >= slides.length) currentSlide = 0;
+            if (n < 0) currentSlide = slides.length - 1;
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+        }
+
+        function moveSlide(direction) {
+            currentSlide += direction;
+            showSlide(currentSlide);
+            pauseAutoPlay();
+        }
+
+        function goToSlide(n) {
+            currentSlide = n;
+            showSlide(currentSlide);
+            pauseAutoPlay();
+        }
+
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(() => {
+                if (!userInteracting) {
+                    currentSlide++;
+                    showSlide(currentSlide);
+                }
+            }, 8000);
+        }
+
+        function pauseAutoPlay() {
+            userInteracting = true;
+            clearInterval(autoPlayInterval);
+            setTimeout(() => {
+                userInteracting = false;
+                startAutoPlay();
+            }, 4000);
+        }
+
+        startAutoPlay();
+    </script>
+
+    <!-- Features Section -->
+    <section class="bg-neutral">
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label" data-es="Componentes del Sistema">System Components</div>
+                <h2 data-es="Arquitectura de la Solución">Solution Architecture</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-user-md"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Gestión de Pacientes">Patient Management</h3>
+                    </div>
+                    <p class="project-text" data-es="Expediente digital completo con historial clínico, búsqueda optimizada y seguimiento en tiempo real.">A complete digital record with clinical history, optimized search and real-time tracking.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-flask"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Motor de Estudios Dinámico">Dynamic Test Engine</h3>
+                    </div>
+                    <p class="project-text" data-es="Sistema flexible para captura de resultados con validación automática de valores de referencia.">A flexible system for results capture with automatic validation of reference values.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-file-pdf"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Generación de Reportes">Report Generation</h3>
+                    </div>
+                    <p class="project-text" data-es="Motor de renderizado PDF que crea informes profesionales instantáneos con códigos QR de validación.">A PDF rendering engine that instantly creates professional reports with QR validation codes.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h3 style="font-size: 1.25rem; font-weight: 400;" data-es="Portal de Pacientes">Patient Portal</h3>
+                    </div>
+                    <p class="project-text" data-es="Consulta online 24/7 con notificaciones automáticas vía WhatsApp y Email.">Online access 24/7 with automatic notifications via WhatsApp and email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section>
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label" data-es="Resultados">Results</div>
+                <h2 data-es="Impacto Medible">Measurable Impact</h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label" data-es="Reducción en tiempo de procesamiento">Reduction in processing time</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label" data-es="Eliminación de errores manuales">Elimination of manual errors</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">90%</div>
+                    <div class="stat-label" data-es="Mejora en satisfacción del paciente">Improvement in patient satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="bg-neutral">
+        <div class="container">
+            <div style="margin-bottom: 3rem; text-align: center;">
+                <div class="section-label" data-es="Tecnología">Technology</div>
+                <h2 data-es="Stack Tecnológico">Tech Stack</h2>
+            </div>
+
+            <div class="project-card" style="max-width: 900px; margin: 0 auto;">
+                <div class="tech-grid">
+                    <div class="tech-category">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                            <div class="skill-icon" style="animation: pulse 2s infinite;"><i class="fab fa-react"></i>
+                            </div>
+                            <h5 style="margin: 0;">Frontend</h5>
+                        </div>
+                        <div class="tech-item"><span class="tech-dot"></span> Next.js 16 (App Router)</div>
+                        <div class="tech-item"><span class="tech-dot"></span> TypeScript</div>
+                        <div class="tech-item"><span class="tech-dot"></span> Tailwind CSS</div>
+                        <div class="tech-item"><span class="tech-dot"></span> shadcn/ui</div>
+                    </div>
+                    <div class="tech-category">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                            <div class="skill-icon" style="animation: pulse 2s infinite 0.3s;"><i
+                                    class="fas fa-database"></i></div>
+                            <h5 style="margin: 0;">Backend</h5>
+                        </div>
+                        <div class="tech-item"><span class="tech-dot"></span> Next.js API Routes</div>
+                        <div class="tech-item"><span class="tech-dot"></span> NextAuth.js</div>
+                        <div class="tech-item"><span class="tech-dot"></span> PostgreSQL</div>
+                        <div class="tech-item"><span class="tech-dot"></span> Prisma ORM</div>
+                    </div>
+                    <div class="tech-category">
+                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                            <div class="skill-icon" style="animation: pulse 2s infinite 0.6s;"><i
+                                    class="fas fa-cloud"></i></div>
+                            <h5 style="margin: 0;" data-es="Infraestructura">Infrastructure</h5>
+                        </div>
+                        <div class="tech-item"><span class="tech-dot"></span> Railway Cloud Platform</div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="CI/CD Automatizado">Automated CI/CD</span></div>
+                        <div class="tech-item"><span class="tech-dot"></span> <span data-es="Monitoreo en tiempo real">Real-time monitoring</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Data Scientist & Full-Stack Developer</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
